@@ -15,6 +15,16 @@ class Question:
 
         return output
 
+def shutdown():
+    print("Exiting", end="\r")
+    time.sleep(0.4)
+    print("Exiting.", end="\r")
+    time.sleep(0.4)
+    print("Exiting..", end="\r")
+    time.sleep(0.4)
+    print("Exiting...")
+    time.sleep(1)
+    exit()
 
 def loadQuestions(file: str = "CyberOps.txt"):
     questions = []
@@ -64,15 +74,7 @@ def main():
         print("----------------------------------------------------")
     except:
         print("EXITING DUE TO DUMB USER!")
-        print("Exiting", end="\r")
-        time.sleep(0.4)
-        print("Exiting.", end="\r")
-        time.sleep(0.4)
-        print("Exiting..", end="\r")
-        time.sleep(0.4)
-        print("Exiting...")
-        time.sleep(1)
-        exit()
+        shutdown()
 
     if numberOfQuestions < 1 or numberOfQuestions > len(questions):
         print("Number out of range.\nEnjoy all questions :)")
@@ -86,15 +88,7 @@ def main():
         inp = input("\nEnter the index/indexes of correct answer/answers: ")
         ans = []
         if inp == "q":
-            print("Exiting", end="\r")
-            time.sleep(0.4)
-            print("Exiting.", end="\r")
-            time.sleep(0.4)
-            print("Exiting..", end="\r")
-            time.sleep(0.4)
-            print("Exiting...")
-            time.sleep(1)
-            exit()
+           shutdown()
         for char in inp:
             try:
                 ans.append(int(char))
@@ -131,13 +125,5 @@ while True:
     inp = input("Press Enter continue or enter 'q' to leave: ")
     if inp == "q":
         print("See you later aligator :)")
-        print("Exiting", end="\r")
-        time.sleep(0.4)
-        print("Exiting.", end="\r")
-        time.sleep(0.4)
-        print("Exiting..", end="\r")
-        time.sleep(0.4)
-        print("Exiting...")
-        time.sleep(1)
-        exit()
+        shutdown()
     main()
