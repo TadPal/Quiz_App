@@ -837,3 +837,391 @@ SMiShing CORRECT
 Bluejacking
 Bluesnarfing
 END
+
+104. When considering network security, what is the most valuable asset of an organization?
+START
+data CORRECT
+personnel
+financial resources
+customers
+END
+
+105. Which resource is affected due to weak security settings for a device owned by the company, but housed in another location?
+START
+removable media
+cloud storage device CORRECT
+social networking
+hard copy
+END
+
+106. Which Cisco group is responsible for investigating and mitigating potential vulnerabilities in Cisco products?
+START
+Cisco Product Security Incident Response Team CORRECT
+Cisco Talos Intelligence Group
+National Cyber Security Alliance
+Cybersecurity Infrastructure and Security Agency
+END
+
+107. What is an attack vector?
+START
+It refers to attacks carried out specifically by internal users.
+It is a path by which a threat actor can gain access to a server, host, or network. CORRECT
+It refers to a threat group that launches DDoS attacks.
+It is a tool by which a threat actor uses to attack an organization.
+END
+
+108. Which term in network security is used to describe a potential danger to an asset such as data or the network itself?
+START
+Risk
+Exploit
+Vulnerability
+Threat CORRECT
+END
+
+109. Which statement describes the network security term attack surface?
+START
+It is the total sum of the vulnerabilities in each system that are accessible to an attacker. CORRECT
+It is the mechanism that is used to leverage a vulnerability to compromise an asset.
+It is a weakness in a system or its design that could be exploited by a threat.
+It is the likelihood that a particular threat will exploit a particular vulnerability of an asset and result in an undesirable consequence.
+END
+
+110. Which term refers to the type of threat actors who are either self-employed or working for large cybercrime organizations?
+START
+Vulnerability brokers
+State-Sponsored
+Hacktivists
+Cybercriminals CORRECT
+END
+
+111. Which statement describes the characteristics of the indicators of attack (IOA)?
+START
+They help cybersecurity personnel identify what has happened in an attack and develop defenses against the attack.
+They focus on identifying malware files, IP addresses of servers that are used in attacks, filenames, and characteristic changes made to end system software, among others.
+They focus on the motivation behind an attack and the potential means by which threat actors have, or will, compromise vulnerabilities to gain access to assets. CORRECT
+They are shared through the system AIS (Automated Indicator Sharing) and help to limit the size of attack surface.
+END
+
+112. What are two reasons that internal threats from within an organization may cause greater damage than external threats? (Choose two.)
+START
+Internal users have direct access to the building and its infrastructure devices. CORRECT
+Internet users can easily conceal their attacking trails.
+Internal users have better access to attacking tools.
+State-Sponsored hacking is typically carried out by internal users.
+Internal users may have knowledge of the corporate network, its resources, and its confidential data. CORRECT
+END
+
+113. Which field in an IPv6 packet is used by the router to determine if a packet has expired and should be dropped?
+START
+TTL
+Hop Limit
+Address Unreachable
+No Route to Destination
+END
+
+114. An attacker is using a laptop as a rogue access point to capture all network traffic from a targeted user. Which type of attack is this?
+START
+trust exploitation
+buffer overflow
+port redirection
+man in the middle CORRECT
+END
+
+115. Which field in the IPv4 header is used to prevent a packet from traversing a network endlessly?
+START
+Differentiated Services
+Acknowledgment Number
+Sequence Number
+Time-to-Live CORRECT
+END
+
+116. What is involved in an IP address spoofing attack?
+START
+A rogue DHCP server provides false IP configuration parameters to legitimate DHCP clients.
+A legitimate network IP address is hijacked by a rogue node. CORRECT
+A rogue node replies to an ARP request with its own MAC address indicated for the target IP address.
+Bogus DHCPDISCOVER messages are sent to consume all the available IP addresses on a DHCP server.
+END
+
+117. Which type of attack involves the unauthorized discovery and mapping of network systems and services?
+START
+trust exploitation
+reconnaissance CORRECT
+DoS
+access
+END
+
+118. In which TCP attack is the cybercriminal attempting to overwhelm a target host with half-open TCP connections?
+START
+reset attack
+session hijacking attack
+SYN flood attack CORRECT
+port scan attack
+END
+
+119. How is optional network layer information carried by IPv6 packets?
+START
+inside an options field that is part of the IPv6 packet header
+inside an extension header attached to the main IPv6 packet header CORRECT
+inside the Flow Label field
+inside the payload carried by the IPv6 packet
+END
+
+120. A threat actor wants to interrupt a normal TCP communication between two hosts by sending a spoofed packet to both endpoints. Which TCP option bit would the threat actor set in the spoofed packet?
+START
+FIN
+ACK
+SYN
+RST CORRECT
+END
+
+121. A threat actor uses a program to launch an attack by sending a flood of UDP packets to a server on the network. The program sweeps through all of the known ports trying to find closed ports. It causes the server to reply with an ICMP port unreachable message and is similar to a DoS attack. Which two programs could be used by the threat actor to launch the attack? (Choose two.)
+START
+WireShark
+Low Orbit Ion Cannon CORRECT
+ping
+UDP Unicorn CORRECT
+Smurf
+END
+
+123. Which term describes a field in the IPv4 packet header used to detect corruption in the IPv4 header?
+START
+TTL
+source IPv4 address
+protocol
+header checksum CORRECT
+END
+
+124. What kind of ICMP message can be used by threat actors to map an internal IP network?
+START
+ICMP redirects
+ICMP mask reply CORRECT
+ICMP echo request
+ICMP router discovery
+END
+
+125. Users in a company have complained about network performance. After investigation, the IT staff has determined that an attacker has used a specific technique that affects the TCP three-way handshake. What is the name of this type of network attack?
+START
+SYN flood CORRECT
+DNS poisoning
+session hijacking
+DDoS
+END
+
+126. Which action best describes a MAC address spoofing attack?
+START
+bombarding a switch with fake source MAC addresses
+forcing the election of a rogue root bridge
+altering the MAC address of an attacking host to match that of a legitimate host CORRECT
+flooding the LAN with excessive traffic
+END
+
+127. What is an objective of a DHCP spoofing attack?
+START
+to provide false DNS server addresses to DHCP clients so that visits to a legitimate web server are directed to a fake server CORRECT
+to attack a DHCP server and make it unable to provide valid IP addresses to DHCP clients
+to intercept DHCP messages and alter the information before sending to DHCP clients
+to gain illegal access to a DHCP server and modify its configuration
+END
+
+128. What is the primary means for mitigating virus and Trojan horse attacks?
+START
+encryption
+blocking ICMP echo and echo-replies
+antisniffer software
+antivirus software CORRECT
+END
+
+129. What method can be used to mitigate ping sweeps?
+START
+using encrypted or hashed authentication protocols
+installing antivirus software on hosts
+blocking ICMP echo and echo-replies at the network edge CORRECT
+deploying antisniffer software on all network devices
+END
+
+130. What worm mitigation phase involves actively disinfecting infected systems?
+START
+containment
+treatment CORRECT
+inoculation
+quarantine
+END
+
+131. What is the result of a DHCP starvation attack?
+START
+Clients receive IP address assignments from a rogue DHCP server.
+The IP addresses assigned to legitimate clients are hijacked.
+The attacker provides incorrect DNS and default gateway information to clients.
+Legitimate clients are unable to lease IP addresses. CORRECT
+END
+
+132. Which term is used for bulk advertising emails flooded to as many end users as possible?
+START
+Adware
+Spam CORRECT
+Brute force
+Phishing
+END
+
+133. Which type of DNS attack involves the cybercriminal compromising a parent domain and creating multiple subdomains to be used during the attacks?
+START
+cache poisoning
+shadowing CORRECT
+tunneling
+amplification and reflection
+END
+
+134. Which protocol would be the target of a cushioning attack?
+START
+DNS
+DHCP
+ARP
+HTTP CORRECT
+END
+
+135. Which language is used to query a relational database?
+START
+C++
+SQL
+Java
+Python
+END
+
+136. Which two attacks target web servers through exploiting possible vulnerabilities of input functions used by an application? (Choose two.)
+START
+trust exploitation
+SQL injection CORRECT
+port redirection
+cross-site scripting CORRECT
+port scanning
+END
+
+137. In which type of attack is falsified information used to redirect users to malicious Internet sites?
+START
+domain generation
+DNS cache poisoning CORRECT
+DNS amplification and reflection
+ARP cache poisoning
+END
+
+138. What is a characteristic of a DNS amplification and reflection attack?
+START
+Threat actors hide their phishing and malware delivery sites behind a quickly-changing network of compromised DNS hosts.
+Threat actors use a DoS attack that consumes the resources of the DNS open resolvers.
+Threat actors use malware to randomly generate domain names to act as rendezvous points.
+Threat actors use DNS open resolvers to increase the volume of attacks and to hide the true source of an attack. CORRECT
+END
+
+139. City Center Hospital provides WLAN connectivity to its employees. The security policy requires that communication between employee mobile devices and the access points must be encrypted. What is the purpose of this requirement?
+START
+to prevent a computer virus on a mobile device from infecting other devices
+to prevent the contents of intercepted messages from being read CORRECT
+to ensure that users who connect to an AP are employees of the hospital
+to block denial of service attacks originating on the Internet
+END
+
+140. What is a feature that can be used by an administrator to prevent unauthorized users from connecting to a wireless access point?
+START
+software firewall
+proxy server
+WPA encryption
+MAC filtering CORRECT
+END
+
+141. What is an advantage of SSID cloaking?​
+START
+It provides free Internet access in public locations where knowing the SSID is of no concern.
+SSIDs are very difficult to discover because APs do not broadcast them.
+Clients will have to manually identify the SSID to connect to the network. CORRECT
+It is the best way to secure a wireless network.
+END
+
+142. For which discovery mode will an AP generate the most traffic on a WLAN?
+START
+passive mode CORRECT
+mixed mode
+active mode
+open mode
+END
+
+143. At a local college, students are allowed to connect to the wireless network without using a password. Which mode is the access point using?
+START
+open CORRECT
+passive
+network
+shared-key
+END
+
+144. An employee connects wirelessly to the company network using a cell phone. The employee then configures the cell phone to act as a wireless access point that will allow new employees to connect to the company network. Which type of security threat best describes this situation?
+START
+rogue access point CORRECT
+denial of service
+cracking
+spoofing
+END
+
+145. The company handbook states that employees cannot have microwave ovens in their offices. Instead, all employees must use the microwave ovens located in the employee cafeteria. What wireless security risk is the company trying to avoid?
+START
+accidental interference CORRECT
+improperly configured devices
+rogue access points
+interception of data
+END
+
+146. Which two roles are typically performed by a wireless router that is used in a home or small business? (Choose two.)
+START
+WLAN controller
+RADIUS authentication server
+repeater
+access point CORRECT
+Ethernet switch CORRECT
+END
+
+147. What method of wireless authentication is dependent on a RADIUS authentication server?
+START
+WPA2 Personal
+WPA Personal
+WPA2 Enterprise CORRECT
+WEP
+END
+
+148. Which wireless encryption method is the most secure?
+START
+WPA2 with TKIP
+WPA
+WPA2 with AES CORRECT
+WEP
+END
+
+149. Which parameter is commonly used to identify a wireless network name when a home wireless AP is being configured?
+START
+ESS
+BESS
+SSID CORRECT
+ad hoc
+END
+
+150. Which wireless parameter refers to the frequency bands used to transmit data to a wireless access point?
+START
+SSID
+channel settings CORRECT
+scanning mode
+security mode
+END
+
+151. Which device can control and manage a large number of corporate APs?
+START
+switch
+router
+LWAP
+WLC CORRECT
+END
+
+152. A wireless engineer is comparing the deployment of a network using WPA2 versus WPA3 authentication. How is WPA3 authentication more secure when deployed in an open WLAN network in a newly built company-owned cafe shop?
+START
+WPA3 prevents brute force attacks by using SAE
+WPA3 uses DPP to securely onboard available IoT devices
+WPA3 uses OWE to encrypt wireless traffic CORRECT
+WPA3 requires the use of a 192-bit cryptographic suite
+END
