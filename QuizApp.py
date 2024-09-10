@@ -124,6 +124,6 @@ def main():
 while True:
     inp = input("Press Enter continue or enter 'q' to leave: ")
     if inp == "q":
-        print("See you later aligator :)")
+        print("See you later alligator :)")
         shutdown()
     main()
