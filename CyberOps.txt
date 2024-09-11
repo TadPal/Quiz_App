@@ -1225,3 +1225,800 @@ WPA3 uses DPP to securely onboard available IoT devices
 WPA3 uses OWE to encrypt wireless traffic CORRECT
 WPA3 requires the use of a 192-bit cryptographic suite
 END
+
+153. What is the purpose of a personal firewall on a computer?
+START
+to protect the computer from viruses and malware
+to protect the hardware against fire hazard
+to filter the traffic that is moving in and out of the PC CORRECT
+to increase the speed of the Internet connection
+END
+
+154. What is the main difference between the implementation of IDS and IPS devices?
+START
+An IDS needs to be deployed together with a firewall device, whereas an IPS can replace a firewall.
+An IDS uses signature-based technology to detect malicious packets, whereas an IPS uses profile-based technology.
+An IDS would allow malicious traffic to pass before it is addressed, whereas an IPS stops it immediately. CORRECT
+An IDS can negatively impact the packet flow, whereas an IPS can not.
+END
+
+155. Which protocol provides authentication, integrity, and confidentiality services and is a type of VPN?
+START
+AES
+IPsec CORRECT
+ESP
+MD5
+END
+
+156. What is a feature of the TACACS+ protocol?
+START
+It hides passwords during transmission using PAP and sends the rest of the packet in plaintext.
+It utilizes UDP to provide more efficient packet transfer.
+It combines authentication and authorization as one process.
+It encrypts the entire body of the packet for more secure communications. CORRECT
+END
+
+157. Which firewall feature is used to ensure that packets coming into a network are legitimate responses to requests initiated from internal hosts?
+START
+packet filtering
+application filtering
+stateful packet inspection CORRECT
+URL filtering
+END
+
+158. Which statement describes the Cisco Cloud Web Security?
+START
+It is an advanced firewall solution to guard web servers against security threats.
+It is a security appliance that provides an all-in-one solution for securing and controlling web traffic.
+It is a cloud-based security service to scan traffic for malware and policy enforcement. CORRECT
+It is a secure web server specifically designed for cloud computing.
+END
+
+159. Which two statements are true about NTP servers in an enterprise network? (Choose two.)
+START
+NTP servers at stratum 1 are directly connected to an authoritative time source. CORRECT
+All NTP servers synchronize directly to a stratum 1 time source.
+NTP servers control the mean time between failures (MTBF) for key network devices.
+There can only be one NTP server on an enterprise network.
+NTP servers ensure an accurate time stamp on logging and debugging information. CORRECT
+END
+
+160. How is a source IP address used in a standard ACL?
+START
+It is the address that is unknown, so the ACL must be placed on the interface closest to the source address.
+It is the address to be used by a router to determine the best path to forward packets.
+It is used to determine the default gateway of the router that has the ACL applied.
+It is the criterion that is used to filter traffic. CORRECT
+END
+
+161. Which network service allows administrators to monitor and manage network devices?
+START
+NetFlow
+NTP
+syslog
+SNMP CORRECT
+END
+
+162. What is a function of a proxy firewall?
+START
+uses signatures to detect patterns in network traffic
+drops or forwards traffic based on packet header information
+connects to remote servers on behalf of clients CORRECT
+filters IP traffic between bridged interfaces
+END
+
+163. What network monitoring technology enables a switch to copy and forward traffic sent and received on multiple interfaces out another interface toward a network analysis device?
+START
+port mirroring CORRECT
+SNMP
+NetFlow
+network tap
+END
+
+164. What type of attack targets an SQL database using the input field of a user?
+START
+Cross-site scripting
+XML injection
+buffer overflow
+SQL injection CORRECT
+END
+
+165. What is the first line of defense to protect a device from improper access control?
+START
+passwords CORRECT
+encryption
+shredding
+end user license agreement (EULA)
+END
+
+166. A social media site is describing a security breach in a sensitive branch of a national bank. In the post, it refers to a vulnerability. What statement describes that term?
+START
+The likelihood that a particular threat will exploit a vulnerability of an asset and result in an undesirable consequence.
+A weakness in a system or its design that could be exploited by a threat. CORRECT
+The potential damage to the organization that is caused by the threat.
+The actions that are taken to protect assets by mitigating a threat or reducing risk.
+END
+
+167. A security service company is conducting an audit in several risk areas within a major corporate client. What attack or data loss vector term would be used to describe providing access to corporate data by gaining access to stolen or weak passwords?
+START
+hard copy
+an internal threat
+improper access control CORRECT
+unencrypted devices
+END
+
+168. Which three IPv4 header fields have no equivalent in an IPv6 header? (Choose three.)
+START
+protocol
+flag CORRECT
+fragment offset CORRECT
+version
+TTL
+identification CORRECT
+END
+
+169. Which type of network attack involves randomly opening many Telnet requests to a router and results in a valid network administrator not being able to access the device?
+START
+spoofing
+man-in-the-middle
+SYN flooding CORRECT
+DNS poisoning
+END
+
+170. What kind of ICMP message can be used by threat actors to create a man-in-the-middle attack?
+START
+ICMP unreachable
+ICMP redirects CORRECT
+ICMP echo request
+ICMP mask reply
+END
+
+171. Which risk management plan involves discontinuing an activity that creates a risk?
+START
+risk retention
+risk avoidance CORRECT
+
+risk sharing
+
+risk reduction
+END
+
+172. An attacker is redirecting traffic to a false default gateway in an attempt to intercept the data traffic of a switched network. What type of attack could achieve this?
+START
+DHCP spoofing  CORRECT
+
+ARP cache poisoning
+
+DNS tunneling
+
+TCP SYN flood
+END
+
+173. How do cybercriminals make use of a malicious iFrame?
+START
+The attacker redirects traffic to an incorrect DNS server.
+The iFrame allows the browser to load a web page from another source. CORRECT
+
+The iFrame allows multiple DNS subdomains to be used.
+
+The attacker embeds malicious content in business appropriate files.
+END
+
+174. What is a vulnerability that allows criminals to inject scripts into web pages viewed by users?
+START
+buffer overflow
+SQL injection
+XML injection
+Cross-site scripting CORRECT
+END
+
+175. What is a characteristic of the WLAN passive discover mode?
+START
+
+The client must know the name of the SSID to begin the discover process.
+
+The beaconing feature on the AP is disabled.
+The AP periodically sends beacon frames containing the SSID. CORRECT
+
+The client begins the discover process by sending a probe request.
+END
+
+176. What are the two methods that a wireless NIC can use to discover an AP? (Choose two.)
+START
+initiating a three-way handshake
+
+sending a multicast frame
+transmitting a probe request CORRECT
+
+sending an ARP request broadcast
+receiving a broadcast beacon frame CORRECT
+END
+
+177. A user calls the help desk complaining that the password to access the wireless network has changed without warning. The user is allowed to change the password, but an hour later, the same thing occurs. What might be happening in this situation?
+START
+rogue access point CORRECT
+
+user laptop
+
+password policy
+
+user error
+
+weak password
+END
+
+178. A network administrator of a small advertising company is configuring WLAN security by using the WPA2 PSK method. Which credential do office users need in order to connect their laptops to the WLAN?
+START
+
+a username and password configured on the AP
+
+the company username and password through Active Directory service
+
+a user passphrase
+a key that matches the key on the AP CORRECT
+END
+
+179. Which statement describes a VPN?
+START
+
+VPNs use dedicated physical connections to transfer data between remote users.
+VPNs use virtual connections to create a private network through a public network. CORRECT
+
+VPNs use logical connections to create public networks through the Internet.
+
+VPNs use open source virtualization software to create the tunnel through the Internet.
+END
+
+180. Which statement describes one of the rules that govern interface behavior in the context of implementing a zone-based policy firewall configuration?
+START
+
+By default, traffic is allowed to flow between a zone member interface and any interface that is not a zone member.
+
+An administrator can assign interfaces to zones, regardless of whether the zone has been configured.
+
+An administrator can assign an interface to multiple security zones.
+By default, traffic is allowed to flow among interfaces that are members of the same zone. CORRECT
+END
+
+181. What are two drawbacks to using HIPS? (Choose two.)
+START
+With HIPS, the network administrator must verify support for all the different operating systems used in the network. CORRECT
+
+With HIPS, the success or failure of an attack cannot be readily determined.
+HIPS has difficulty constructing an accurate network picture or coordinating events that occur across the entire network. CORRECT
+
+HIPS installations are vulnerable to fragmentation attacks or variable TTL attacks.
+
+If the network traffic stream is encrypted, HIPS is unable to access unencrypted forms of the traffic.
+END
+
+182. What is a function of SNMP?
+START
+provides a message format for communication between network device managers and agents CORRECT
+
+provides statistical analysis on packets flowing through a Cisco router or multilayer switch
+
+synchronizes the time across all devices on the network
+
+captures packets entering and exiting the network interface card
+END
+
+183. When a user makes changes to the settings of a Windows system, where are these changes stored?
+START
+Registry CORRECT
+
+Control Panel
+
+win.ini
+
+boot.ini
+END
+184. For security reasons a network administrator needs to ensure that local computers cannot ping each other. Which settings can accomplish this task?
+START
+MAC address settings
+firewall settings CORRECT
+
+file system settings
+
+smartcard settings
+END
+185. Which user account should be used only to perform system management and not as the account for regular use?
+START
+administrator CORRECT
+
+power user
+
+standard user
+
+guest
+END
+186. What technology was created to replace the BIOS program on modern personal computer motherboards?
+START
+UEFI CORRECT
+
+CMOS
+
+RAM
+
+MBR
+END
+187. What term is used to describe a logical drive that can be formatted to store data?
+START
+cluster
+
+volume
+partition CORRECT
+
+track
+
+sector
+END
+188. What utility is used to show the system resources consumed by each user?
+START
+User Accounts
+Task Manager CORRECT
+
+Event Viewer
+
+Device Manager
+END
+189. Which command is used to manually query a DNS server to resolve a specific host name?
+START
+tracert
+
+net
+nslookup CORRECT
+
+ipconfig / displaydns
+END
+190. Which net command is used on a Windows PC to establish a connection to a shared directory on a remote server?
+START
+net session
+net use CORRECT
+
+net start
+
+net share
+END
+191. What would be displayed if the netstat -abno command was entered on a Windows PC?
+START
+only active UDP connections in an LISTENING  state
+all active TCP and UDP connections, their current state, and their associated process ID (PID) CORRECT
+
+a local routing table
+
+only active TCP connections in an ESTABLISHED state
+END
+192. What is the purpose of the cd∖ command?
+START
+changes directory to the next lower directory
+
+changes directory to the next highest directory
+changes directory to the root directory CORRECT
+
+changes directory to the previous directory
+END
+193. Which Windows version was the first to introduce a 64-bit Windows operating system?
+START
+Windows XP CORRECT
+
+Windows 7
+
+Windows 10
+
+Windows NT
+END
+194. How much RAM is addressable by a 32-bit version of Windows?
+START
+8 GB
+
+32 GB
+4 GB CORRECT
+
+16 GB
+END
+195. A security incident has been filed and an employee believes that someone has been on the computer since the employee left last night. The employee states that the computer was turned off before the employee left for the evening. The computer is running slowly and applications are acting strangely. Which Microsoft Windows tool would be used by the security analyst to determine if and when someone logged on to the computer after working hours?
+START
+Performance Monitor
+Event Viewer CORRECT
+
+Task Manager
+
+PowerShell
+END
+196. An author is uploading one chapter document from a personal computer to a file server of a book publisher. What role is the personal computer assuming in this network model?
+START
+slave
+
+server
+
+transient
+
+master
+client CORRECT
+END
+197. In the context of a Linux operating system, which command can be used to display the syntax and parameters for a specific command?
+START
+grep
+
+cat
+
+crontab
+man CORRECT
+END
+198. A system administrator issues the command ps on a server that is running the Linux operating system. What is the purpose of this command?
+START
+to list the processes currently running in the system CORRECT
+
+to display the contents of the current directory
+
+to process a new task
+
+to change file permissions
+END
+199. A system administrator issues the apt-get upgrade command on a Linux operating system. What is the purpose of this command?
+START
+Every application installed will update itself to the latest version. CORRECT
+
+A specific application named upgrade will be installed.
+
+The remote repository of applications and dependencies will be updated to the latest version.
+
+Operating system updates are downloaded and will be installed.
+END
+200. Why would a rootkit be used by a hacker?
+START
+to reverse engineer binary files
+
+to try to guess a password
+
+to do reconnaissance
+to gain access to a device without being detected CORRECT
+END
+201. Consider the result of the ls -l command in the Linux output below. What are the group file permissions assigned to the analyst.txt file? ls –l analyst.txt -rwxrw-r-- sales staff 1028 May 28 15:50 analyst.txt
+START
+read only
+
+read, write, execute
+read, write CORRECT
+
+full access
+END
+202. Which type of tool is used by a Linux administrator to attack a computer or network to find vulnerabilities?
+START
+malware analysis
+PenTesting CORRECT
+
+firewall
+
+intrusion detection system
+END
+203. What is a benefit of Linux being an open source operating system?
+START
+Linux distributions must include free support without cost.
+
+Linux distributions are maintained by a single organization.
+
+Linux distributions are simpler operating systems since they are not designed to be connected to a network.
+Linux distribution source code can be modified and then recompiled. CORRECT
+END
+204. Which method can be used to harden a device?
+START
+Allow default services to remain enabled.
+
+Allow users to re-use old passwords.
+Force periodic password changes. CORRECT
+
+Allow USB auto-detection.
+END
+205. Which Linux command can be used to display the name of the current working directory?
+START
+ps
+pwd CORRECT
+
+sudo
+
+chmod
+END
+206. Which file system is the primary file system used by Apple in current Macintosh computers?
+START
+ext2
+
+CDFS
+
+HFS
+
+ext3
+APFS CORRECT
+END
+207. A technician has captured packets on a network that has been running slowly when accessing the internet. Which port number should the technician look for within the captured material to locate HTTP packets?
+START
+110
+80 CORRECT
+
+20
+
+21
+
+53
+END
+208. Which operating system source code can be downloaded and modified by any person or company?
+START
+Mac OS X
+
+Cisco IOS
+Linux CORRECT
+
+Windows
+END
+209. What is a daemon?
+START
+a type of security attack
+
+a record to keep track of important events
+a background process that runs without the need for user interaction CORRECT
+
+an application that monitors and analyzes suspicious activity
+END
+
+210. Which antimalware software approach can recognize various characteristics of known malware files to detect a threat?
+START
+behavior-based
+
+heuristics-based
+
+routing-based
+signature-based CORRECT
+END
+211. Which device in a LAN infrastructure is susceptible to MAC address-table overflow and spoofing attacks?
+START
+switch CORRECT
+
+workstation
+
+firewall
+
+server
+END
+212. In most host-based security suites, which function provides robust logging of security-related events and sends logs to a central location?
+START
+safe browsing
+
+intrusion detection and prevention
+telemetry CORRECT
+
+anti-phishing
+END
+213. Which technology might increase the security challenge to the implementation of IoT in an enterprise environment?
+START
+network bandwidth
+
+data storage
+
+CPU processing speed
+cloud computing CORRECT
+END
+214. Which statement describes agentless antivirus protection?
+START
+Antivirus scans are performed on hosts from a centralized system. CORRECT
+
+Host-based antivirus systems provide agentless antivirus protection.
+
+The antivirus protection is provided by the router that is connected to a cloud service.
+
+The antivirus protection is provided by the ISP.
+END
+215. Which HIDS is an open-source based product?
+START
+Tripwire
+
+AlienVault USM
+OSSEC CORRECT
+
+Cisco AMP
+END
+216. In Windows Firewall, when is the Domain profile applied?
+START
+when the host is connected to an isolated network from the Internet by another security device
+
+when the host accesses the Internet
+
+when the host checks emails from an enterprise email server
+when the host is connected to a trusted network such as an internal business network CORRECT
+END
+217. What is a host-based intrusion detection system (HIDS)?
+START
+It identifies potential attacks and sends alerts but does not stop the traffic.
+It combines the functionalities of antimalware applications with firewall protection. CORRECT
+
+It detects and stops potential direct attacks but does not scan for malware.
+
+It is an agentless system that scans files on a host for potential malware.
+END
+218. As described by the SANS Institute, which attack surface includes the exploitation of vulnerabilities in wired and wireless protocols used by IoT devices?
+START
+software attack surface
+
+Internet attack surface
+network attack surface CORRECT
+
+human attack surface
+END
+219. Which statement describes the term attack surface?
+START
+It is the total sum of vulnerabilities in a system that is accessible to an attacker. CORRECT
+
+It is the network interface where attacks originate.
+
+It is the total number of attacks toward an organization within a day.
+
+It is the group of hosts that experiences the same attack.
+END
+220. As described by the SANS Institute, which attack surface includes the use of social engineering?
+START
+human attack surface CORRECT
+
+software attack surface
+
+Internet attack surface
+
+network attack surface
+END
+221. Which security endpoint setting would be used by a security analyst to determine if a computer has been configured to prevent a particular application from running?
+START
+services
+
+whitelisting
+blacklisting CORRECT
+
+baselining
+END
+222. What can you do to ensure that network operating software remains secure? Choose three correct answers
+START
+
+Implement data classification standards
+Install patches and updates regularly CORRECT
+Conduct software testing prior to launch CORRECT
+
+Develop a policy to address application software and operating system updates
+END
+223. Which type of technology can prevent malicious software from displaying unwanted popup ads on a device?
+START
+
+Spyware protection
+
+Antivirus protection
+Adware protection CORRECT
+END
+224. What type of lock is recommended to secure an office door?
+START
+Cipher lock CORRECT
+
+Security cage
+
+Cable lock
+
+Keyed entry lock
+END
+225. What is identified by the first dimension of the cybersecurity cube?
+START
+rules
+
+safeguards
+goals CORRECT
+
+knowledge
+
+tools
+END
+226. What type of cybersecurity laws protect you from an organization that might want to share your sensitive data?
+START
+nonrepudiation
+
+authentication
+privacy CORRECT
+
+confidentiality
+
+integrity
+END
+227. Which two methods help to ensure data integrity? (Choose two.)
+START
+authorization
+data consistency checks CORRECT
+
+repudiation
+hashing CORRECT
+
+availability
+
+privacy
+END
+228. What name is given to a storage device connected to a network?
+START
+RAID
+
+DAS
+NAS CORRECT
+
+Cloud
+
+SAN
+END
+229. What is a method of sending information from one device to another using removable media?
+START
+sneaker net CORRECT
+
+LAN
+
+packet
+
+wired
+
+wireless
+
+infrared
+END
+230. Which data state is maintained in NAS and SAN services?
+START
+data in-transit
+stored data CORRECT
+
+encrypted data
+
+data in-process
+END
+231. Which type of networks poses increasing challenges to cybersecurity specialists due to the growth of BYOD on campus?
+START
+wireless networks CORRECT
+
+virtual networks
+
+wired networks
+
+sneaker net
+END
+232. An organization allows employees to work from home two days a week. Which technology should be implemented to ensure data confidentiality as data is transmitted?
+START
+RAID
+VPN CORRECT
+
+SHS
+
+VLANS
+END
+233. Which of the following are types of sensitive information? Select three answers
+START
+Public
+Classified CORRECT
+Business CORRECT
+
+Declassified
+
+Published
+Personal CORRECT
+END
+234. Which of the following are foundational principles of the cybersecurity domain? Select three answers
+START
+
+Security
+
+Encryption
+Availability CORRECT
+Confidentiality CORRECT
+
+Policy
+Integrity CORRECT
+END
+235. What tasks are accomplished by a comprehensive security policy? Select three answers
+START
+
+It provides vagueness
+It defines legal consequences of violations CORRECT
+
+It is not legally binding
+
+It is is useful for management
+It sets rules for expected behavior CORRECT
+It gives security staff the backing of management CORRECT
+END
