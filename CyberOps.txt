@@ -3652,3 +3652,1760 @@ The output is a fixed length. CORRECT
 
 The input for a particular hash algorithm has to have a fixed size.
 END
+
+396. Which network service synchronizes the time across all devices on the network?
+START
+NTP CORRECT
+
+SNMP
+
+NetFlow
+
+syslog
+END
+397. Which type of server daemon accepts messages sent by network devices to create a collection of log entries?
+START
+
+SSH
+
+NTP
+syslog CORRECT
+
+AAA
+END
+398. What port number would be used if a threat actor was using NTP to direct DDoS attacks?
+START
+
+25
+
+69
+123 CORRECT
+
+443
+END
+399. Which protocol is used to send e-mail messages between two servers that are in different e-mail domains?
+START
+
+HTTP
+
+POP3
+SMTP CORRECT
+
+IMAP4
+END
+400. What type of server can threat actors use DNS to communicate with?
+START
+CnC CORRECT
+
+database
+
+NTP
+
+web
+END
+401. Which type of server would support the SMTP, POP, and IMAP protocols?
+START
+
+DHCP
+email CORRECT
+
+proxy
+
+syslog
+END
+402. What method allows VPN traffic to remain confidential?
+START
+
+authentication
+encryption CORRECT
+
+verification
+
+encapsulation
+END
+403. To facilitate the troubleshooting process, which inbound ICMP message should be permitted on an outside interface?
+START
+
+echo request
+echo reply CORRECT
+
+time-stamp request
+
+time-stamp reply
+
+router advertisement
+END
+404. Which statement describes the function provided by the Tor network?
+START
+
+It distributes user packets through load balancing.
+It allows users to browse the Internet anonymously. CORRECT
+
+It conceals packet contents by establishing end-to-end tunnels.
+
+It manipulates packets by mapping IP addresses between two networks.
+END
+405. How can NAT/PAT complicate network security monitoring if NetFlow is being used?
+START
+
+It changes the source and destination MAC addresses.
+
+It conceals the contents of a packet by encrypting the data payload.
+
+It disguises the application initiated by a user by manipulating port numbers.
+It hides internal IP addresses by allowing them to share one or a few outside IP addresses. CORRECT
+END
+406. A cyberanalyst is reviewing an entry-point ACL. What three types of ICMP traffic should be allowed to access an internal network from the internet? (Choose three.)
+START
+
+request
+reply CORRECT
+
+time exceeded
+squelch CORRECT
+
+ping
+destination unreachable CORRECT
+END
+407. A company decides to purchase a device capable of managing load balancing so that traffic will be distributed between their servers. What could be a potential problem using the new device on the network?
+START
+
+It will require the purchase of more servers so that existing servers are not overwhelmed.
+The LBM probe messages may appear as suspicious traffic. CORRECT
+
+The traffic will require more bandwidth to send to multiple servers.
+
+All links to redundant servers will require encrypted tunneling protocols.
+
+It will cause extra traffic going to a server resource that is not available.
+END
+408. Which statement describes an operational characteristic of NetFlow?
+START
+
+NetFlow can provide services for user access control.
+NetFlow collects basic information about the packet flow, not the flow data itself. CORRECT
+
+NetFlow captures the entire contents of a packet.
+
+NetFlow flow records can be viewed by the tcpdump tool.
+END
+409. Which statement describes the tcpdump tool?
+START
+
+It accepts and analyzes data captured by Wireshark.
+
+It is used to control multiple TCP-based applications.
+It is a command-line packet analyzer. CORRECT
+
+It can be used to analyze network log data in order to describe and predict network behavior.
+END
+410. What are two popular SIEM platforms? (Choose two.)
+START
+
+tcpdump
+Splunk CORRECT
+Security Onion with ELK CORRECT
+
+NetFlow
+
+Cisco Umbrella
+END
+411. Which Windows log records events related to login attempts and operations related to file or object access?
+START
+
+system logs
+
+application logs
+
+setup logs
+security logs CORRECT
+END
+412. Which type of data is used by Cisco Cognitive Intelligence to find malicious activity that has bypassed security controls, or entered through unmonitored channels, and is operating inside an enterprise network?
+START
+
+transaction
+
+alert
+statistical CORRECT
+
+session
+END
+413. Which type of security data can be used to describe or predict network behavior?
+START
+
+session
+
+transaction
+
+alert
+statistical CORRECT
+END
+414. What are two of the 5-tuples? (Choose two.)
+START
+protocol CORRECT
+source port CORRECT
+
+IDS
+
+ACL
+
+IPS
+END
+415. Which Windows tool can be used to review host logs?
+START
+Event Viewer CORRECT
+
+Device Manager
+
+Task Manager
+
+Services
+END
+416. A NIDS/NIPS has identified a threat. Which type of security data will be generated and sent to a logging device?
+START
+alert CORRECT
+
+transaction
+
+statistical
+
+session
+END
+417. In a Cisco AVC system, in which module is NBAR2 deployed?
+START
+
+Management and Reporting
+
+Metrics Collection
+
+Control
+Application Recognition CORRECT
+END
+418. Which Windows host log event type describes the successful operation of an application, driver, or service?
+START
+information CORRECT
+
+warning
+
+error
+
+success audit
+END
+419. What is a feature of the tcpdump tool?
+START
+
+It provides real-time reporting and long-term analysis of security events.
+It can display packet captures in real time or write them to a file. CORRECT
+
+It records metadata about packet flows.
+
+It uses agents to submit host logs to centralized management servers.
+END
+420. What is the host-based intrusion detection tool that is integrated into Security Onion?
+START
+
+Snort
+
+Sguil
+OSSEC CORRECT
+
+Wireshark
+END
+421. Which tool is included with Security Onion that is used by Snort to automatically download new rules?
+START
+
+Sguil
+
+Wireshark
+
+ELK
+PulledPork CORRECT
+END
+422. Which tool included in Security Onion is an interactive dashboard interface to Elasticsearch data?
+START
+Kibana CORRECT
+
+Sguil
+
+Wireshark
+
+Zeek
+END
+423. Which NIDS tool uses a signature-based approach and native multithreading for alert detection?
+START
+
+Snort
+
+Bro
+
+Zeek
+Suricata CORRECT
+END
+424. Which tool is a Security Onion integrated host-based intrusion detection system?
+START
+
+Snort
+
+Zeek
+Wazuh CORRECT
+
+Suricata
+END
+425. What are three analysis tools that are integrated into Security Onion? (Choose three.)
+START
+Wireshark CORRECT
+
+Snort
+Kibana CORRECT
+Sguil CORRECT
+
+Suricata
+
+OSSEC
+END
+426. What function is provided by Snort as part of the Security Onion?
+START
+to generate network intrusion alerts by the use of rules and signatures CORRECT
+
+to normalize logs from various NSM data logs so they can be represented, stored, and accessed through a common schema
+
+to view pcap transcripts generated by intrusion detection tools
+
+to display full-packet captures for analysis
+END
+427. What classification is used for an alert that correctly identifies that an exploit has occurred?
+START
+
+false negative
+
+false positive
+
+true negative
+true positive CORRECT
+END
+428. Which type of analysis relies on predefined conditions and can analyze applications that only use well-known fixed ports?
+START
+
+probabilistic
+
+log
+
+statistical
+deterministic CORRECT
+END
+429. Which type of analysis relies on different methods to establish the likelihood that a security event has happened or will happen?
+START
+
+log
+
+deterministic
+probabilistic CORRECT
+
+statistical
+END
+430. Which alert classification indicates that exploits are not being detected by installed security systems?
+START
+false negative CORRECT
+
+true negative
+
+true positive
+
+false positive
+END
+431. Which tool would an analyst use to start a workflow investigation?
+START
+
+ELK
+
+Snort
+
+Zeek
+Sguil CORRECT
+END
+432. Which method is used by some malware to transfer files from infected hosts to a threat actor host?
+START
+
+iFrame injection
+
+HTTPS traffic encryption
+ICMP tunneling CORRECT
+
+UDP infiltration
+END
+433. What is the purpose of Tor?
+START
+
+to securely connect to a remote network over an unsecure link such as an Internet connection
+
+to donate processor cycles to distributed computational tasks in a processor sharing P2P network
+to allow users to browse the Internet anonymously CORRECT
+
+to inspect incoming traffic and look for any that violates a rule or matches the signature of a known exploit
+END
+434. Which protocol is exploited by cybercriminals who create malicious iFrames?
+START
+
+DNS
+HTTP CORRECT
+
+DHCP
+
+ARP
+END
+435. Which technique is necessary to ensure a private transfer of data using a VPN?
+START
+
+virtualization
+encryption CORRECT
+
+authorization
+
+scalability
+END
+436. Which type of attack is carried out by threat actors against a network to determine which IP addresses, protocols, and ports are allowed by ACLs?
+START
+
+phishing
+
+denial of service
+reconnaissance CORRECT
+
+social engineering
+END
+437. After a security monitoring tool identifies a malware attachment entering the network, what is the benefit of performing a retrospective analysis?
+START
+
+It can calculate the probability of a future incident.
+
+It can identify how the malware originally entered the network.
+
+It can determine which network host was first affected.
+A retrospective analysis can help in tracking the behavior of the malware from the identification point forward. CORRECT
+END
+438. Which technique would a threat actor use to disguise traces of an ongoing exploit?
+Corrupt time information by attacking the NTP infrastructure. CORRECT
+START
+Use SSL to encapsulate malware.
+
+Encapsulate other protocols within DNS to evade security measures.
+
+Create an invisible iFrame on a web page.
+END
+439. Which two technologies are primarily used on peer-to-peer networks? (Choose two.)
+START
+
+Wireshark
+Bitcoin CORRECT
+BitTorrent CORRECT
+
+Snort
+
+Darknet
+END
+440. Which type of data is used by Cisco Cognitive Intelligence to find malicious activity that has bypassed security controls, or entered through unmonitored channels, and is operating inside an enterprise network?
+START
+
+session
+
+alert
+
+transaction
+statistical CORRECT
+END
+441. What is a key difference between the data captured by NetFlow and data captured by Wireshark?
+START
+NetFlow collects metadata from a network flow whereas Wireshark captures full data packets. CORRECT
+
+NetFlow data shows network flow contents whereas Wireshark data shows network flow statistics.
+
+NetFlow data is analyzed by tcpdump whereas Wireshark data is analyzed by nfdump.
+
+NetFlow provides transaction data whereas Wireshark provides session data.
+END
+442. Which Cisco appliance can be used to filter network traffic contents to report and deny traffic based on the web server reputation?
+START
+
+AVC
+
+ASA
+WSA CORRECT
+
+ESA
+END
+443. A system administrator runs a file scan utility on a Windows PC and notices a file lsass.exe in the Program Files directory. What should the administrator do?
+START
+Delete the file because it is probably malware. CORRECT
+
+Open the Task Manager, right-click on the lsass process and choose End Task.
+
+Uninstall the lsass application because it is a legacy application and no longer required by Windows.
+
+Move it to Program Files (x86) because it is a 32bit application.
+END
+444. Which two services are provided by the NetFlow tool? (Choose two.)
+START
+
+QoS configuration
+usage-based network billing CORRECT
+
+access list monitoring
+network monitoring CORRECT
+
+log analysis
+END
+445. How does a web proxy device provide data loss prevention (DLP) for an enterprise?
+START
+
+by functioning as a firewall
+by scanning and logging outgoing traffic CORRECT
+
+by checking the reputation of external web servers
+
+by inspecting incoming traffic for potential exploits
+END
+446. A threat actor has successfully breached the network firewall without being detected by the IDS system. What condition describes the lack of alert?
+START
+false negative CORRECT
+
+true negative
+
+false positive
+
+true positive
+END
+447. Which classification indicates that an alert is verified as an actual security incident?
+START
+
+false positive
+true positive CORRECT
+
+false negative
+
+true negative
+END
+448. What are the three core functions provided by the Security Onion? (Choose three.)
+START
+full packet capture CORRECT
+alert analysis CORRECT
+intrusion detection CORRECT
+
+business continuity planning
+
+security device management
+
+threat containment
+END
+449. What information is contained in the options section of a Snort rule?
+START
+
+direction of traffic flow
+
+source and destination address
+text describing the event CORRECT
+
+action to be taken
+END
+450. What are two scenarios where probabilistic security analysis is best suited? (Choose two.)
+START
+when analyzing applications designed to circumvent firewalls CORRECT
+
+when each event is the inevitable result of antecedent causes
+
+when applications that conform to application/networking standards are analyzed
+when random variables create difficulty in knowing with certainty the outcome of any given event CORRECT
+
+when analyzing events with the assumption that they follow predefined steps
+END
+451. Which field in the Sguil event window indicates the number of times an event is detected for the same source and destination IP address?
+START
+
+Pr
+
+AlertID
+
+ST
+CNT CORRECT
+END
+
+452.  Which of the following frameworks identifies controls based on the latest information about common cyber attacks and provides benchmarks for various platforms?
+START
+CIS CORRECT
+
+CSA
+
+ISO
+
+The National Cybersecurity Workforce
+END
+453. Cybersecurity professionals may have access to sensitive data. What one factor should they understand to help them make informed ethical decisions in relation to this data?
+START
+Laws governing the data CORRECT
+
+A potential bonus
+
+Cloud provider agreements
+
+Partnerships with third parties
+END
+454. What is the primary goal of IT security governance?
+START
+
+To make decisions to mitigate risk
+
+To provide a set of policies and procedures to manage sensitive data
+To provide oversight to ensure that risks are adequately mitigated CORRECT
+
+To define a set of controls that an organization should implement
+END
+455. What do penetration tests and red team exercises achieve?
+START
+
+They provide a list of malware that has successfully penetrated the firewall.
+
+They provide audit trails for all TCP connections in place at any given time.
+They simulate attacks to gauge the security capabilities of an organization. CORRECT
+
+They provide audit controls for all NetBIOS connections made.
+END
+456. An organization has experienced several incidents involving employees downloading unauthorized software and using unauthorized websites and personal USB devices. What measures could the organization implement to manage these threats? Choose three correct answers
+START
+Disable USB access CORRECT
+
+Implement disciplinary action
+
+Monitor all employee activity
+Provide security awareness training CORRECT
+Use content filtering CORRECT
+Run computers from a central server rather than localized hard drives
+END
+457. The ability to carry out highly specialized review and evaluation of incoming cybersecurity information to determine if it is useful for intelligence is covered in what category of the National Cybersecurity Workforce Framework?
+START
+
+Oversight and development
+
+Security provision
+Analyze CORRECT
+
+Protect and defend
+END
+458. What is the function of the Cloud Security Alliance (CSA)?
+START
+
+It audits the CIA Triad objectives.
+It provides security guidance to any organization that uses cloud computing. CORRECT
+
+It ensures total compliance with the ISO 27000 standards.
+
+It produces a statement of applicability (SOA) which stipulates control objectives and audit controls to be implemented. 
+END
+459. Which of the following principles is used by the U.S. government in its access control models?
+START
+
+Job rotation
+
+Mandatory vacations
+Need to know CORRECT
+
+Separation of duties
+END
+460. What federal act law would an individual be subject to if they knowingly accessed a government computer without permission?
+START
+CFAA CORRECT
+
+ECPA
+
+GLBA
+
+SOX
+END
+461. What act protects the personal information of students in schools?
+START
+
+COPPA
+
+CIPA
+FERPA CORRECT
+
+HIPPA
+END
+462. What law protects the privacy of an employee’s personal information from being shared with third parties?
+START
+
+PCI DSS
+
+SOX
+
+FIRPA
+GLBA CORRECT
+END
+463. How does network scanning help assess operations security?
+START
+It can detect weak or blank passwords.
+
+It can log abnormal activity.
+It can detect open TCP ports on network systems. CORRECT
+
+It can simulate attacks from malicious sources.
+END
+464. An administrator is troubleshooting NetBIOS name resolution on a Windows PC. What command line utility can be used to do this?
+START
+ipconfig
+
+arp
+
+netstat
+nbtstat CORRECT
+END
+465. A new technician was overheard telling colleagues that a secure network password had been discovered through a search of social media sites. What technique was used to acquire the password?
+START
+man-in-the-middle
+
+brute force
+
+active reconnaissance
+
+buffer overflow
+passive reconnaissance CORRECT
+END
+466. Which approach provides automated tools allowing an organization to collect data about security threats from various sources?
+START
+NETCAT
+
+Nmap
+
+SuperScan
+SOAR CORRECT
+END
+467. The laptop of an attacker is attached to a corporate network. The attacker is examining all of the network traffic that is passing through the network interface card. Which network reconnaissance method does this scenario describe?
+START
+bug bounty
+
+penetration exercise
+
+red team blue team
+sniffing CORRECT
+END
+468. What network scanning tool has advanced features that allows it to use decoy hosts to mask the source of the scan?
+START
+Nmap CORRECT
+
+Nessus
+
+Metasploit
+
+Tripwire
+END
+469. An organization has hired a former hacker to test how well the organization would tolerate a real attack by using malicious techniques. What type of testing is the hacker performing for the organization?
+START
+reconnaissance
+
+vulnerability
+
+sniffing
+penetration CORRECT
+END
+470. Which cybersecurity weapon scans for use of default passwords, missing patches, open ports, misconfigurations, and active IP addresses?
+START
+vulnerability scanners CORRECT
+
+packet analyzers
+
+password crackers
+
+packet sniffers
+END
+471. What network testing tool is used for password auditing and recovery?
+START
+Nessus
+
+Metasploit
+
+SuperScan
+L0phtcrack CORRECT
+END
+472. What is the purpose of the Tripwire network testing tool?
+START
+to detect unauthorized wired network access
+
+to provide information about vulnerabilities and aid in penetration testing and IDS signature development
+
+to provide password auditing and recovery
+to assess configuration against established policies, recommended best practices, and compliance standards CORRECT
+
+to perform vulnerability scanning
+END
+473. A new person has joined the security operations team for a manufacturing plant. What is a common scope of responsibility for this person?
+START
+managing redundancy operations for all systems
+
+physical and logical security of all business personnel
+day-to-day maintenance of network security CORRECT
+
+data security on host devices
+END
+474. What describes a feature of credentialed scans?
+START
+They do not require usernames and passwords to provide authorized access to a system.
+They return fewer false positives and fewer false negatives. CORRECT
+
+They are less invasive than non-credentialed scans.
+
+They try to exploit vulnerabilities and may even crash the target.
+END
+475. What network security testing tool has the ability to provide details on the source of suspicious network activity?
+START
+Tripwire
+
+Zenmap
+SIEM CORRECT
+
+SuperScan
+END
+476. What is the primary function of (ISC2)?
+START
+to maintain a detailed list of all zero-day attacks
+
+to provide a weekly digest of news articles about computer security
+
+to maintain a list of common vulnerabilities and exposures (CVE) used by prominent security organizations
+to provide vendor neutral education products and career services CORRECT
+END
+477. What is the primary function of SANS?
+START
+to foster cooperation and coordination in information sharing, incident prevention, and rapid reaction
+
+to maintain the list of common vulnerabilities and exposures (CVE)
+
+to provide vendor neutral education products and career services
+
+to maintain the Internet Storm Center CORRECT
+END
+478. What is the primary function of the Center for Internet Security (CIS)?
+START
+to provide a security news portal that aggregates the latest breaking news pertaining to alerts, exploits, and vulnerabilities
+to offer 24x7 cyberthreat warnings and advisories, vulnerability identification, and mitigation and incident responses CORRECT
+
+to maintain a list of common vulnerabilities and exposures (CVE) used by security organizations
+
+to provide vendor-neutral education products and career services to industry professionals worldwide
+END
+479. What is the primary purpose of the Forum of Incident Response and Security Teams (FIRST)?
+START
+to offer 24x7 cyberthreat warnings and advisories, vulnerability identification, and mitigation and incident response
+
+to provide vendor neutral education products and career services to industry professionals worldwide
+
+to provide a security news portal that aggregates the latest breaking news pertaining to alerts, exploits, and vulnerabilities
+to enable a variety of computer security incident response teams to collaborate, cooperate, and coordinate information sharing, incident prevention, and rapid reaction strategies CORRECT
+END
+480. Which service is offered by the U.S. Department of Homeland Security (DHS) that enables real-time exchange of cyberthreat indicators between the U.S. Federal Government and the private sector?
+START
+CVE
+AIS CORRECT
+
+STIX
+
+FireEye
+END
+481. What does the MITRE Corporation create and maintain?
+START
+CVE CORRECT
+
+TAXII
+
+STIX
+
+IOC
+END
+482. Which threat intelligence sharing open standard specifies, captures, characterizes, and communicates events and properties of network operations?
+START
+Talos
+
+TAXII
+CybOX CORRECT
+
+MISP
+END
+483. What is the primary objective of a threat intelligence platform (TIP)?
+START
+to provide a standardized schema for specifying, capturing, characterizing, and communicating events and properties of network operations
+
+to provide a specification for an application layer protocol that allows the communication of CTI over HTTPS
+
+to provide a security operations platform that integrates and enhances diverse security tools and threat intelligence
+to aggregate the data in one place and present it in a comprehensible and usable format CORRECT
+END
+484. How does FireEye detect and prevent zero-day attacks?
+START
+by keeping a detailed analysis of all viruses and malware
+by addressing all stages of an attack lifecycle with a signature-less engine utilizing stateful attack analysis CORRECT
+
+by only accepting encrypted data packets that validate against their configured hash values
+
+by establishing an authentication parameter prior to any data exchange
+END
+485. Which service is provided by the Cisco Talos Group?
+START
+preventing viruses from affecting end user devices
+
+scanning updates for malware code
+collecting information about active, existing, and emerging threats CORRECT
+
+preventing online malware from affecting end user devices
+END
+486. In profiling a server, what defines what an application is allowed to do or run on a server?
+START
+user accounts
+
+listening ports
+service accounts CORRECT
+
+software environment
+END
+487. In network security assessments, which type of test is used to evaluate the risk posed by vulnerabilities to a specific organization including assessment of the likelihood of attacks and the impact of successful exploits on the organization?
+START
+risk analysis CORRECT
+
+port scanning
+
+penetration testing
+
+vulnerability assessment
+END
+488. When a network baseline is being established for an organization, which network profile element indicates the time between the establishment of a data flow and its termination?
+START
+ports used
+
+total throughput
+session duration CORRECT
+
+critical asset address space
+END
+489. Which type of evaluation includes the assessment of the likelihood of an attack, the type of threat actor likely to perpetrate such an attack, and what the consequences could be to the organization if the exploit is successful?
+START
+risk analysis CORRECT
+
+vulnerability identification
+
+penetration testing
+
+server profiling
+END
+490. A cybersecurity analyst is performing a CVSS assessment on an attack where a web link was sent to several employees. Once clicked, an internal attack was launched. Which CVSS Base Metric Group Exploitability metric is used to document that the user had to click on the link in order for the attack to occur?
+START
+availability requirement
+
+integrity requirement
+
+scope
+user interaction CORRECT
+END
+491. Which metric class in the CVSS Basic Metric Group identifies the impacts on confidentiality, integrity, and availability?
+START
+Impact CORRECT
+
+Exploitability
+
+Modified Base
+
+Exploit Code Maturity
+END
+492. Which metric in the CVSS Base Metric Group is used with an attack vector?
+START
+the proximity of the threat actor to the vulnerability CORRECT
+
+the determination whether the initial authority changes to a second authority during the exploit
+
+the presence or absence of the requirement for user interaction in order for an exploit to be successful
+
+the number of components, software, hardware, or networks, that are beyond the control of the attacker and that must be present in order for a vulnerability to be successfully exploited
+END
+493. Which statement describes the threat-vulnerability (T-V) pairing?
+START
+It is the advisory notice from a vulnerability research center.
+
+It is the comparison between known malware and system risks.
+
+It is the detection of malware against a central vulnerability research center.
+It is the identification of threats and vulnerabilities and the matching of threats with vulnerabilities. CORRECT
+END
+494. In addressing an identified risk, which strategy aims to shift some of the risk to other parties?
+START
+risk sharing CORRECT
+
+risk retention
+
+risk reduction
+
+risk avoidance
+END
+495. Which step in the Vulnerability Management Life Cycle categorizes assets into groups or business units, and assigns a business value to asset groups based on their criticality to business operations?
+START
+report
+
+assess
+
+remediate
+prioritize assets CORRECT
+END
+496. What is an action that should be taken in the discovery step of the vulnerability management life cycle?
+START
+assigning business value to assets
+
+determining a risk profile
+developing a network baseline CORRECT
+
+documenting the security plan
+END
+497. Which type of security control includes backup and restore operations, as well as fault-tolerant data storage?
+START
+deterrent 
+recovery CORRECT
+
+detection
+
+compensative
+END
+498. A user is asked to evaluate the security posture of a company. The user looks at past attempts to break into the company and evaluates the threats and exposures to create a report. Which type of risk analysis could the user perform?
+START
+qualitative CORRECT
+
+objective
+
+subjective
+
+opinion
+END
+499. A user is asked to perform a risk analysis of a company. The user asks for the company asset database that contains a list of all equipment.The user uses this information as part of a risk analysis. Which type of risk analysis could be performed?
+START
+exposure factor
+
+hardware
+quantitative CORRECT
+
+qualitative
+
+END
+500. The CEO of a company is concerned that if a data breach should occur and customer data is exposed, the company could be sued. The CEO makes the decision to buy insurance for the company. What type of risk mitigation is the CEO implementing?
+START
+
+avoidance
+transference CORRECT
+
+reduction
+
+mitigation
+
+END
+501. What is the first step in the risk management process that helps to reduce the impact of threats and vulnerabilities?
+START
+
+Frame the risk. CORRECT
+
+Assess the risk.
+
+Monitor the risk.
+
+Respond to the risk.
+
+END
+502. A warning banner that lists the negative outcomes of breaking company policy is displayed each time a computer user logs in to the machine. What type of access control is implemented?
+START
+
+masking
+
+preventive
+deterrent CORRECT
+
+detective
+END
+503. A public cloud service company provides data storage services to multiple customers. The company decides to purchase an insurance policy to cover the data loss due to natural disasters. Which risk management action level has the service company taken to manage the potential risk?
+START
+
+accept
+transfer CORRECT
+
+mitigation
+
+avoidance
+
+END
+504. Which two types of controls are effective after a violation of a security policy occurs? (Choose two.)
+START
+corrective CORRECT
+recovery CORRECT
+
+preventive
+
+deterrent 
+
+compensative
+
+END
+505. Which access control should the IT department use to restore a system back to its normal state?
+START
+corrective CORRECT
+
+detective
+
+preventive
+
+compensative
+
+END
+506. Based on the risk management process, what should the cybersecurity team do as the next step when a cybersecurity risk is identified?
+START
+
+Frame the risk.
+Assess the risk. CORRECT
+
+Monitor the risk.
+
+Respond to the risk.
+
+END
+507. Which statement describes a cybersecurity risk?
+START
+
+It is a weakness in information systems.
+
+It is a threat which causes loss of assets.
+It is the probability of loss due to a threat. CORRECT
+
+It is the damage incurred by an event which causes disruption of network services.
+
+END
+508. As part of HR policy in a company, an individual may opt-out of having information shared with any third party other than the employer. Which law protects the privacy of personal shared information?
+START
+
+
+PCI
+GLBA CORRECT
+
+FIRPA
+
+SOX
+
+END
+509. A company has had several incidents involving users downloading unauthorized software, using unauthorized websites, and using personal USB devices. The CIO wants to put in place a scheme to manage the user threats. What three things might be put in place to manage the threats? (Choose three.)
+START
+
+
+Implement disciplinary action.
+Disable CD and USB access. CORRECT
+Provide security awareness training. CORRECT
+Use content filtering. CORRECT
+
+Monitor all activity by the users.
+
+Change to thin clients.
+
+END
+510. Which threat is mitigated through user awareness training and tying security awareness to performance reviews?
+START
+
+
+physical threats
+
+cloud-related threats
+
+device-related threats
+user-related threats CORRECT
+
+END
+511. A breach occurs in a company that processes credit card information. Which industry specific law governs credit card data protection?
+START
+
+
+GLBA
+PCI DSS CORRECT
+
+ECPA
+
+SOX
+
+END
+512. What is the workforce framework category that includes highly specialized review and evaluation of incoming cybersecurity information to determine if it is useful for intelligence?
+START
+
+Analyze CORRECT
+
+Securely Provision
+
+Oversight and Development
+
+Protect and Defend
+
+END
+513. What information does the SIEM network security management tool provide to network administrators?
+START
+
+
+a map of network systems and services
+real time reporting and analysis of security events CORRECT
+
+detection of open TCP and UDP ports
+
+assessment of system security configurations
+
+END
+514. What type of network security test can detect and report changes made to network systems?
+START
+
+
+penetration testing
+
+network scanning
+integrity checking CORRECT
+
+vulnerability scanning
+
+END
+515. What type of network security test uses simulated attacks to determine the feasibility of an attack as well as the possible consequences if the attack occurs?
+START
+
+
+integrity checking
+
+vulnerability scanning
+penetration testing CORRECT
+
+network scanning
+
+END
+516. What network testing tool would an administrator use to assess and validate system configurations against security policies and compliance standards?
+START
+
+
+Metasploit
+
+Nessus
+
+L0phtcrack
+Tripwire CORRECT
+
+END
+517. A security professional is asked to perform an analysis of the current state of a company network. What tool would the security professional use to scan the network only for security risks?
+START
+
+
+malware
+
+packet analyzer
+
+pentest
+vulnerability scanner CORRECT
+
+END
+518. How does AIS address a newly discovered threat?
+START
+
+
+by creating response strategies against the new threat
+by enabling real-time exchange of cyberthreat indicators with U.S. Federal Government and the private sector CORRECT
+
+by mitigating the attack with active response defense mechanisms 
+
+by advising the U.S. Federal Government to publish internal response strategies 
+
+END
+519. Which statement describes Trusted Automated Exchange of Indicator Information (TAXII)?
+START
+
+
+It is a signature-less engine utilizing stateful attack analysis to detect zero-day threats. 
+
+It is a set of specifications for exchanging cyber threat information between organizations.
+It is the specification for an application layer protocol that allows the communication of CTI over HTTPS. CORRECT
+
+It is a dynamic database of real-time vulnerabilities.
+
+END
+520. Which organization defines unique CVE Identifiers for publicly known information-security vulnerabilities that make it easier to share data?
+START
+
+
+Cisco Talos
+MITRE CORRECT
+
+FireEye
+
+DHS
+
+END
+521. What are the steps in the vulnerability management life cycle?
+START
+
+discover, prioritize assets, assess, report, remediate, verify CORRECT
+
+plan, do, act, check
+
+identify, protect, detect, respond, recover
+
+detect, analyze, recover, respond
+
+END
+522. What are the three impact metrics contained in the CVSS 3.0 Base Metric Group? (Choose three.)
+START
+
+
+exploit
+
+remediation level
+
+attack vector
+confidentiality CORRECT
+integrity CORRECT
+availability CORRECT
+
+END
+523. Which step in the Vulnerability Management Life Cycle determines a baseline risk profile to eliminate risks based on asset criticality, vulnerability threat, and asset classification?
+START
+
+assess CORRECT
+
+discover
+
+verify
+
+prioritize assets
+
+END
+524. In addressing an identified risk, which strategy aims to decrease the risk by taking measures to reduce vulnerability?
+START
+
+risk reduction CORRECT
+
+risk retention
+
+risk avoidance
+
+risk sharing
+
+END
+525. Which risk mitigation strategies include outsourcing services and purchasing insurance?
+START
+
+transfer CORRECT
+
+acceptance
+
+avoidance
+
+reduction
+
+END
+526. Why would an organization perform a quantitative risk analysis for network security threats?
+START
+
+so that the organization can focus resources where they are most needed CORRECT
+
+so that management has documentation about the number of security attacks that have occurred within a particular time period
+
+so that the organization knows the top areas where network security holes exist
+
+so that management can determine the number of network devices needed to inspect, analyze, and protect the corporate resources
+
+END
+527. Which two values are required to calculate annual loss expectancy? (Choose two.)
+START
+
+
+frequency factor
+
+exposure factor
+
+asset value
+annual rate of occurrence CORRECT
+
+quantitative loss value
+single loss expectancy CORRECT
+
+END
+528. In which situation would a detective control be warranted?
+START
+
+when the organization needs to look for prohibited activity CORRECT
+
+after the organization has experienced a breach in order to restore everything back to a normal state
+
+when the organization needs to repair damage
+
+when the organization cannot use a guard dog, so it is necessary to consider an alternative
+
+END
+529. The team is in the process of performing a risk analysis on the database services. The  information collected includes the initial value of these assets, the threats to the assets and the impact of the threats. What type of risk analysis is the team performing by calculating the annual loss expectancy?
+START
+
+
+qualitative analysis
+quantitative analysis CORRECT
+
+loss analysis
+
+protection analysis
+
+END
+530. Based on the risk management process, what should the cybersecurity team do as the next step when a cybersecurity risk is identified?
+START
+
+Assess the risk. CORRECT
+
+Respond to the risk.
+
+Frame the risk.
+
+Monitor the risk.
+
+END
+531. Which action should be included in a plan element that is part of a computer security incident response capability (CSIRC)?
+START
+
+Create an organizational structure and definition of roles, responsibilities, and levels of authority.
+Develop metrics for measuring the incident response capability and its effectiveness. CORRECT
+
+Prioritize severity ratings of security incidents.
+
+Detail how incidents should be handled based on the mission and functions of an organization.
+
+END
+532. According to NIST, which step in the digital forensics process involves extracting relevant information from data?
+START
+examination CORRECT
+
+reporting
+
+collection
+
+analysis
+
+END
+533. After a threat actor completes a port scan of the public web server of an organization and identifies a potential vulnerability, what is the next phase for the threat actor in order to prepare and launch an attack as defined in the Cyber Kill Chain?
+START
+
+action on objectives
+
+exploitation
+
+reconnaissance
+weaponization CORRECT
+
+END
+534. What is a MITRE ATT&CK framework?
+START
+
+guidelines for the collection of digital evidence
+
+documented processes and procedures for digital forensic analysis
+
+a collection of malware exploits and prevention solutions
+a knowledge base of threat actor behavior CORRECT
+
+END
+535. Which statement describes the Cyber Kill Chain?
+START
+
+It is a set of metrics designed to create a way to describe security incidents in a structured and repeatable way.
+
+It specifies common TCP/IP protocols used to fight against cyberattacks.
+It identifies the steps that adversaries must complete to accomplish their goals. CORRECT
+
+It uses the OSI model to describe cyberattacks at each of the seven layers.
+
+END
+536. The company you work for has asked you to create a broad plan that includes DRP and getting critical systems to another location in case of disaster. What type of plan are you being asked to create?
+START
+
+disaster recovery plan
+
+annual loss expectancy
+
+Network Admission Control
+business continuity plan CORRECT
+
+END
+537. What is the purpose of the policy element in a computer security incident response capability of an organization, as recommended by NIST?
+START
+It details how incidents should be handled based on the organizational mission and functions. CORRECT
+
+It provides a roadmap for maturing the incident response capability.
+
+It defines how the incident response teams will communicate with the rest of the organization and with other organizations.
+
+It provides metrics for measuring the incident response capability and effectiveness.
+
+END
+538. A threat actor has gained administrative access to a system and achieved the goal of controlling the system for a future DDoS attack by establishing a communication channel with a CnC owned by the threat actor. Which phase in the Cyber Kill Chain model describes the situation?
+START
+
+exploitation
+
+delivery
+
+command and control
+
+action on objectives CORRECT
+
+END
+539. Which term is used in the Diamond Model of intrusion to describe a tool that a threat actor uses toward a target system?
+START
+capability CORRECT
+
+adversary
+
+infrastructure
+
+weaponization
+
+END
+540. A user is asked to create a disaster recovery plan for a company. The user needs to have a few questions answered by management to proceed. Which three questions should the user ask management as part of the process of creating the plan? (Choose three.)
+START
+
+Can the individual perform the process?
+Where does the individual perform the process? CORRECT
+
+How long does the process take?
+What is the process? CORRECT
+
+Does the process require approval?
+Who is responsible for the process CORRECT
+
+END
+541. Which meta-feature element in the Diamond Model describes tools and information (such as software, black hat knowledge base, username and password) that the adversary uses for the intrusion event?
+START
+
+methodology
+resources CORRECT
+
+results
+
+direction
+
+END
+542. After containing an incident that infected user workstations with malware, what are three effective remediation procedures that an organization can take for eradication? (Choose three.)
+START
+Use clean and recent backups to recover hosts. CORRECT
+Rebuild hosts with installation media if no backups are available. CORRECT
+Update and patch the operating system and installed software of all hosts. CORRECT
+
+Change assigned names and passwords for all devices.
+
+Rebuild DHCP servers using clean installation media.
+
+Disconnect or disable all wired and wireless network adapters until the remediation is complete.
+
+END
+543. Which two actions can help identify an attacking host during a security incident? (Choose two.)
+START
+Use an Internet search engine to gain additional information about the attack. CORRECT
+
+Develop identifying criteria for all evidence such as serial number, hostname, and IP address.
+
+Determine the location of the recovery and storage of all evidence.
+
+Log the time and date that the evidence was collected and the incident remediated.
+Validate the IP address of the threat actor to determine if it is viable. CORRECT
+
+END
+544. What is the objective the threat actor in establishing a two-way communication channel between the target system and a CnC infrastructure?
+START
+
+
+to send user data stored on the target to the threat actor
+to allow the threat actor to issue commands to the software that is installed on the target CORRECT
+
+to steal network bandwidth from the network where the target is located
+
+to launch a buffer overflow attack
+
+END
+545. What will a threat actor do to create a back door on a compromised target according to the Cyber Kill Chain model?
+START
+
+
+Obtain an automated tool to deliver the malware payload.
+
+Add services and autorun keys. CORRECT
+
+Open a two-way communications channel to the CnC infrastructure.
+
+Collect and exfiltrate data.
+
+END
+546. Which type of evidence supports an assertion based on previously obtained evidence?
+START
+
+
+best evidence
+corroborating evidence CORRECT
+
+indirect evidence
+
+direct evidence
+
+END
+547. In which step of the NIST incident response process does the CSIRT perform an analysis to determine which networks, systems, or applications are affected; who or what originated the incident; and how the incident is occurring?
+START
+
+
+incident notification
+
+attacker identification
+
+detection
+scoping CORRECT
+
+END
+548. Which NIST-defined incident response stakeholder is responsible for coordinating incident response with other stakeholders and minimizing the damage of an incident?
+START
+
+
+human resources
+
+IT support
+
+the legal department
+management CORRECT
+
+END
+549. A company is applying the NIST.SP800-61 r2 incident handling process to security events. What are two examples of incidents that are in the category of precursor? (Choose two.)
+START
+
+a newly-discovered vulnerability in Apache web servers CORRECT
+
+a host that has been verified as infected with malware
+log entries that show a response to a port scan CORRECT
+
+multiple failed logins from an unknown source
+
+an IDS alert message being sent
+
+END
+550. What is a chain of custody?
+START
+
+the documentation surrounding the preservation of evidence related to an incident CORRECT
+
+a plan ensuring that each party involved in an incident response understands how to collect evidence
+
+a list of all of the stakeholders that were exploited by an attacker
+
+the disciplinary measures an organization may perform if an incident is caused by an employee
+
+END
+551. Which type of controls restore the system after a disaster or an event?
+START
+
+
+Preventive controls
+
+Detective controls
+Corrective controls CORRECT
+
+END
+552. What is specified in the plan element of the NIST incident response plan?
+START
+
+
+incident handling based on the mission of the organization
+
+priority and severity ratings of incidents
+
+organizational structure and the definition of roles, responsibilities, and levels of authority
+metrics for measuring the incident response capability and effectiveness CORRECT
+
+END
+553. According to the Cyber Kill Chain model, after a weapon is delivered to a targeted system, what is the next step that a threat actor would take?
+START
+
+
+weaponization
+
+action on objectives
+
+installation
+exploitation CORRECT
+
+END
+554. Which activity is typically performed by a threat actor in the installation phase of the Cyber Kill Chain?
+START
+
+Install a web shell on the target web server for persistent access. CORRECT
+
+Harvest email addresses of user accounts.
+
+Obtain an automated tool to deliver the malware payload.
+
+Open a two-way communication channel to the CnC infrastructure.
+
+END
+555. What type of exercise interrupts services to verify that all aspects of a business continuity plan are able to respond to a certain type of incident?
+START
+
+
+Tabletop exercise
+
+Functional test
+Operational exercise CORRECT
+
+END
+556. Which task describes threat attribution?
+START
+
+determining who is responsible for the attack CORRECT
+
+obtaining the most volatile evidence
+
+evaluating the server alert data
+
+reporting the incident to the proper authorities
+
+END
+557. According to NIST, which step in the digital forensics process involves identifying potential sources of forensic data, its acquisition, handling, and storage?
+START
+
+collection CORRECT
+
+reporting
+
+examination
+
+analysis
+
+END
+558. Keeping data backups offsite is an example of which type of disaster recovery control?
+START
+
+
+management
+
+detective
+
+corrective
+preventive CORRECT
+
+END
+559. A cybersecurity analyst has been called to a crime scene that contains several technology items including a computer. Which technique will be used so that the information found on the computer can be used in court?
+START
+
+
+log collection
+
+rootki
+unaltered disk image CORRECT
+
+Tor
+
+END
+560. Which type of data would be considered an example of volatile data?
+START
+
+memory registers CORRECT
+
+log files
+
+web browser cache
+
+temp files
+END
