@@ -914,7 +914,7 @@ END
 113. Which field in an IPv6 packet is used by the router to determine if a packet has expired and should be dropped?
 START
 TTL
-Hop Limit
+Hop Limit CORRECT
 Address Unreachable
 No Route to Destination
 END
