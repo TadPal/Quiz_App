@@ -30,7 +30,7 @@ def shutdown():
 
 def loadQuestions(file: str = "CyberOps.txt"):
     questions = []
-    with open(file, "r") as f:
+    with open(file, "r", encoding="utf-8") as f:
         lines = f.readlines()
         options = []
         answer = []
