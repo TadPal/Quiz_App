@@ -4084,8 +4084,9 @@ It can determine which network host was first affected.
 A retrospective analysis can help in tracking the behavior of the malware from the identification point forward. CORRECT
 END
 438. Which technique would a threat actor use to disguise traces of an ongoing exploit?
-Corrupt time information by attacking the NTP infrastructure. CORRECT
 START
+Corrupt time information by attacking the NTP infrastructure. CORRECT
+
 Use SSL to encapsulate malware.
 
 Encapsulate other protocols within DNS to evade security measures.
