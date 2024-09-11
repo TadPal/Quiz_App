@@ -15,6 +15,7 @@ class Question:
 
         return output
 
+
 def shutdown():
     print("Exiting", end="\r")
     time.sleep(0.4)
@@ -25,6 +26,7 @@ def shutdown():
     print("Exiting...")
     time.sleep(1)
     exit()
+
 
 def loadQuestions(file: str = "CyberOps.txt"):
     questions = []
@@ -38,6 +40,10 @@ def loadQuestions(file: str = "CyberOps.txt"):
 
         for line in lines:
             line = line.strip()
+
+            if line == "":
+                continue
+
             if opt:
                 if "END" in line:
                     questions.append(Question(question, options, answer))
@@ -52,9 +58,6 @@ def loadQuestions(file: str = "CyberOps.txt"):
                 else:
                     options.append(line)
                     index += 1
-
-            elif line == "\n":
-                continue
             elif "START" in line:
                 opt = True
             else:
@@ -88,7 +91,7 @@ def main():
         inp = input("\nEnter the index/indexes of correct answer/answers: ")
         ans = []
         if inp == "q":
-           shutdown()
+            shutdown()
         for char in inp:
             try:
                 ans.append(int(char))
@@ -124,6 +127,6 @@ def main():
 while True:
     inp = input("Press Enter continue or enter 'q' to leave: ")
     if inp == "q":
-        print("See you later alligator :)")
+        print("See you later aligator :)")
         shutdown()
     main()
