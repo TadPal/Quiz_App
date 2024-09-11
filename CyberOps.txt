@@ -2951,3 +2951,704 @@ Devices on the 192.168.10.0/24 network can sucessfully ping devices on the 192.1
 Only the network device assigned the IP address 192.168.10.1 is allowed to access the router.
 Devices on the 192.168.10.0/24 network are allowed to reply to any ping requests. CORRECT
 END
+
+329. Which statement is a characteristic of a packet filtering firewall?
+START
+They are susceptible to IP spoofing. CORRECT
+
+They have a high impact on network performance.
+
+They examine each packet in the context of the state of a connection.
+
+They filter fragmented packets.
+END
+330. What is one benefit of using a next-generation firewall rather than a stateful firewall?
+START
+support of TCP-based packet filtering
+integrated use of an intrusion prevention system (IPS) CORRECT
+
+support of logging
+
+reactive protection against Internet threats
+END
+331. What are two characteristics of an application gateway firewall? (Choose two.)
+START
+Performs most filtering and firewall control in software. CORRECT
+
+Uses a simple policy table look-up to filter traffic based on Layer 3 and Layer 4 information.
+
+Provides an integrated intrusion prevention and detection feature.
+Analyzes traffic at Layers 3, 4, 5 and 7 of the OSI model. CORRECT
+
+Uses connection information maintained in a state table and analyzes traffic at OSI Layers 3, 4, and 5.
+END
+332. What are two benefits of implementing a firewall in a network? (Choose two.)
+START
+A firewall will sanitize protocol flow. CORRECT
+
+A firewall will inspect network traffic and forward traffic based solely on the Layer 2 Ethernet MAC address.
+
+A firewall will provide accessibility of applications and sensitive resources to external untrusted users.
+A firewall will reduce security management complexity. CORRECT
+
+A firewall will prevent unauthorized traffic from being tunneled or hidden as legitimate traffic through an enterprise network.
+END
+333. Which type of firewall is commonly part of a router firewall and allows or blocks traffic based on Layer 3 or 4 information?
+START
+next generation firewall
+
+proxy firewall
+
+stateful firewall
+packet filtering firewall CORRECT
+END
+334. Which three layers of the OSI model include information that is commonly inspected by a stateful firewall? (Choose three.)
+START
+Layer 1
+
+Layer 2
+Layer 3 CORRECT
+Layer 4 CORRECT
+Layer 5 CORRECT
+
+Layer 7
+END
+335. Which type of firewall is supported by most routers and is the easiest to implement?
+START
+packet filtering firewall CORRECT
+
+next generation firewall
+
+application gateway firewall
+
+stateful firewall
+END
+336. Which type of firewall generally has a low impact on network performance?
+START
+stateful firewall
+stateless firewall CORRECT
+
+application gateway firewall
+
+next generation firewall
+END
+337. Which two protocols are stateless and do not generate connection information needed to build a state table? (Choose two.)
+START
+UDP CORRECT
+ICMP CORRECT
+
+HTTP
+
+TCP
+
+FTP
+END
+338. Which type of traffic is usually blocked when implementing a demilitarized zone?
+START
+traffic originating from the DMZ network and traveling to the private network CORRECT
+
+traffic originating from the private network and traveling to the DMZ network
+
+traffic that is returning from the DMZ network and traveling to the private network
+
+traffic that is returning from the public network and traveling to the DMZ network
+END
+339. How does a firewall handle traffic that is originating from the DMZ network and traveling to a private network?
+START
+Traffic is usually allowed when it is originating from the DMZ network and traveling to a private network.
+Traffic is usually blocked when it is originating from the DMZ network and traveling to a private network. CORRECT
+
+Traffic is usually not filtered using firewall rules when it is originating from the DMZ network and traveling to a private network.
+
+Traffic is allowed when it is originating from the private network, but the response traffic from the DMZ network will be blocked.
+END
+340. When implementing a ZPF, which statement describes a zone?
+START
+A zone is a group of hardened computers known as bastion hosts.
+
+A zone is a group of administrative devices that protect against rogue access point installations.
+
+A zone is a group of one or more devices that provide backup and disaster recovery mechanisms.
+A zone is a group of one or more interfaces that have similar functions or features. CORRECT
+END
+
+341.  Which statement describes a feature of a zone-based policy firewall?
+START
+
+The router security posture is to allow traffic unless explicitly blocked.
+It does not depend on ACLs. CORRECT
+
+All traffic through a given interface is subject to the same inspection.
+
+It uses a flat, non-hierarchical data structure making it easier to configure and troubleshoot
+END
+342. Which statement describes a zone when implementing ZPF on a Cisco router?
+START
+
+Only one zone can be attached to a single interface.
+
+A zone is used to implement traffic filtering for either TCP or UDP.
+
+A zone is used to define security policies for a unique interface on the router.
+A zone establishes a security border of a network. CORRECT
+END
+343. Designing a ZPF requires several steps. Which step involves defining boundaries where traffic is subjected to policy restrictions as it crosses to another region of the network?
+START
+
+identify subsets within zones and merge traffic requirements
+
+design the physical infrastructure
+
+establish policies between zones
+determine the zones CORRECT
+END
+344. Which statement describes one of the rules that govern interface behavior in the context of implementing a zone-based policy firewall configuration?
+START
+
+By default, traffic is allowed to flow between a zone member interface and any interface that is not a zone member.
+
+An administrator can assign interfaces to zones, regardless of whether the zone has been configured.
+
+An administrator can assign an interface to multiple security zones.
+By default, traffic is allowed to flow among interfaces that are members of the same zone. CORRECT
+END
+345. Which three statements describe zone-based policy firewall rules that govern interface behavior and the traffic moving between zone member interfaces? (Choose three.)
+START
+If traffic is to flow between all interfaces in a router, each interface must be a member of a zone. CORRECT
+Pass, inspect, and drop options can only be applied between two zones. CORRECT
+To permit traffic to and from a zone member interface, a policy allowing or inspecting traffic must be configured between that zone and any other zone. CORRECT
+
+Traffic is implicitly prevented from flowing by default among interfaces that are members of the same zone.
+
+An interface can be assigned to multiple security zones.
+
+Interfaces can be assigned to a zone before the zone is created.
+END
+346. In ZPF design, what is described as the self zone?
+START
+the router itself, including all interfaces with assigned IP addresses CORRECT
+
+a predefined cluster of routers with configured interfaces
+
+the outward facing interface on the edge router
+
+a predefined cluster of servers with configured interfaces
+END
+347. How does ZPF handle traffic between an interface that is a zone member and another interface that does not belong to any zone?
+START
+
+allow
+drop CORRECT
+
+inspect
+
+pass
+END
+348. Which statement describes a factor to be considered when configuring a zone-based policy firewall?
+START
+
+The classic firewall ip inspect command can coexist with ZPF as long as it is used on interfaces that are in the same security zones.
+A zone must be configured with the zone security global command before it can be used in the zone-member security command. CORRECT
+
+An interface can belong to multiple zones.
+
+The router always filters the traffic between interfaces in the same zone.
+END
+349. Which statement accurately describes Cisco IOS zone-based policy firewall operation?
+START
+
+A router interface can belong to multiple zones.
+
+Router management interfaces must be manually assigned to the self zone.
+The pass action works in only one direction. CORRECT
+
+Service policies are applied in interface configuration mode.
+END
+350. When a Cisco IOS zone-based policy firewall is being configured, which two actions can be applied to a traffic class? (Choose two.)
+START
+
+hold
+
+copy
+
+forward
+inspect CORRECT
+
+log
+drop CORRECT
+END
+351. In what step of zone-based policy firewall configuration is traffic identified for policy application?
+START
+configuring class maps CORRECT
+
+defining zones
+
+assigning policy maps to zones
+
+creating policy maps
+END
+352. When configuring a class map for a zone-based policy firewall, how is the match criteria applied when using the match-all parameter?
+START
+
+Traffic must match the first criteria in the statement.
+
+Traffic must match all of the criteria solely defined by ACLs.
+Traffic must match all of the match criteria specified in the statement. CORRECT
+
+Traffic must match at least one of the match criteria statements.
+END
+353. What are the two classes of encryption algorithms? (Choose two.)
+START
+
+advanced
+
+open
+
+classic
+symmetric CORRECT
+asymmetric CORRECT
+END
+354. What term is used to describe the phenomenon of more VMs than can be managed effectively?
+START
+
+VM Scaling
+VM Sprawl CORRECT
+
+VM Exhaustion
+
+VM Escape
+END
+355. Which cloud security domain covers the challenges of delivering, measuring, and communicating compliances when organizations migrate from traditional data centers to the cloud?
+START
+Compliance and Audit Management CORRECT
+
+Infrastructure Security
+
+Management Plane and Business Continuity
+
+Information Governance
+END
+356. A company is deploying a product ordering system on a public cloud. The company IT specialist is working on security measures to protect the cloud resources. What are two possible negative impacts that should be considered when deploying a virtual firewall and an IPS appliance? (Choose two.)
+START
+traffic bottleneck CORRECT
+processor overloading CORRECT
+
+compatibility with VM operating systems
+
+routing issues associated with virtual security appliances
+
+possible VM escape attacks
+END
+357. What should be deployed to protect traffic confidentiality between a public cloud and a private cloud?
+START
+VPN CORRECT
+
+IPS
+
+firewall
+
+proxy device
+END
+358. In which type of environment would a developer run software to verify that required security settings are met prior to production deployment?
+START
+
+production environment
+
+sandbox environment
+
+development environment
+staging environment CORRECT
+END
+359. Which state of data refers to data moving between the CPU and the hard drive of a server?
+START
+
+data in process
+data in transit CORRECT
+
+data in storage
+
+data at rest
+END
+360. Which technology is used to verify the integrity of files to ensure they were not modified in transit?
+START
+
+secure cookies
+checksum CORRECT
+
+asymmetric encryption
+
+normalization
+END
+361. Which threat type describes the case when cloud computing resources are set up incorrectly?
+START
+
+inside threat
+
+data breaches
+cloud misconfiguration CORRECT
+
+poor cloud security architecture strategy
+END
+362. What term is used to refer to readable data in the context of the data encryption process?
+START
+
+ciphertext
+
+cleantext
+
+opentext
+plaintext CORRECT
+END
+363. Which key component of virtualization allows for running multiple independent operating systems on one physical computing system?
+START
+
+container
+
+VDI
+
+VM
+hypervisor CORRECT
+END
+364. What is the purpose of the DH algorithm?
+START
+
+to provide nonrepudiation support
+
+to support email data confidentiality
+
+to encrypt data traffic after a VPN is established
+to generate a shared secret between two hosts that have not communicated before CORRECT
+END
+365. Which statement is a feature of HMAC?
+START
+
+HMAC is based on the RSA hash function.
+
+HMAC uses a secret key that is only known to the sender and defeats man-in-the-middle attacks.
+
+HMAC uses protocols such as SSL or TLS to provide session layer confidentiality.
+HMAC uses a secret key as input to the hash function, adding authentication to integrity assurance. CORRECT
+END
+366. Which requirement of secure communications is ensured by the implementation of MD5 or SHA hash generating algorithms?​
+START
+
+confidentiality
+
+authentication
+integrity CORRECT
+
+nonrepudiation
+END
+367. Which two statements correctly describe certificate classes used in the PKI? (Choose two.)
+START
+A class 0 certificate is for testing purposes. CORRECT
+
+A class 0 certificate is more trusted than a class 1 certificate.
+
+The lower the class number, the more trusted the certificate.
+
+A class 5 certificate is for users with a focus on verification of email.
+A class 4 certificate is for online business transactions between companies. CORRECT
+END
+368. Which statement describes the use of certificate classes in the PKI?
+START
+
+The lower the class number, the more trusted the certificate.
+
+A vendor must issue only one class of certificates when acting as a CA.
+A class 5 certificate is more trustworthy than a class 4 certificate. CORRECT
+
+Email security is provided by the vendor, not by a certificate.
+END
+369. What technology allows users to verify the identity of a website and to trust code that is downloaded from the Internet?
+START
+
+asymmetric key algorithm
+digital signature CORRECT
+
+encryption
+
+hash algorithm
+END
+370. What two assurances does digital signing provide about code that is downloaded from the Internet? (Choose two.)
+START
+The code is authentic and is actually sourced by the publisher. CORRECT
+
+The code contains no errors.
+
+The code was encrypted with both a private and public key.
+The code has not been modified since it left the software publisher. CORRECT
+
+The code contains no viruses.
+END
+371. What term is used to describe the technology that replaces sensitive information with a nonsensitive version?
+START
+
+hiding
+masking CORRECT
+
+retracting
+
+whiteout
+
+blanking
+END
+372. What term is used to describe concealing data in another file such as a graphic, audio, or other text file?
+START
+
+masking
+
+obfuscation
+steganography CORRECT
+
+hiding
+END
+373. What is a strength of using a hashing function?
+START
+It is a one-way function and not reversible. CORRECT
+
+It can take only a fixed length message.
+
+It has a variable length output.
+
+Two different files can be created that have the same output.
+
+It is not commonly used in security.
+END
+374. An investigator finds a USB drive at a crime scene and wants to present it as evidence in court. The investigator takes the USB drive and creates a forensic image of it and takes a hash of both the original USB device and the image that was created. What is the investigator attempting to prove about the USB drive when the evidence is submitted in court?
+START
+
+The investigator found a USB drive and was able to make a copy of it.
+
+The data is all there.
+
+An exact copy cannot be made of a device.
+The data in the image is an exact copy and nothing has been altered by the process. CORRECT
+END
+375. In which way does the use of HTTPS increase the security monitoring challenges within enterprise networks?
+START
+
+HTTPS traffic is much faster than HTTP traffic.
+HTTPS traffic enables end-to-end encryption. CORRECT
+
+HTTPS traffic does not require authentication.
+
+HTTPS traffic can carry a much larger data payload than HTTP can carry.
+END
+376. What single access list statement matches all of the following networks? 192.168.16.0; 192.168.17.0; 192.168.18.0; 192.168.19.0
+START
+access-list 10 permit 192.168.16.0 0.0.0.255
+
+access-list 10 permit 192.168.16.0 0.0.15.255
+access-list 10 permit 192.168.16.0 0.0.3.255 CORRECT
+
+access-list 10 permit 192.168.0.0 0.0.15.255
+END
+377. When an inbound Internet-traffic ACL is being implemented, what should be included to prevent the spoofing of internal networks?
+START
+
+ACEs to prevent SNMP traffic
+
+ACEs to prevent HTTP traffic
+ACEs to prevent traffic from private address spaces CORRECT
+
+ACEs to prevent ICMP traffic
+
+ACEs to prevent broadcast address traffic
+END
+378. How does a firewall handle traffic when it is originating from the private network and traveling to the DMZ network?
+START
+
+The traffic is selectively permitted and inspected.
+
+The traffic is usually blocked.
+The traffic is usually permitted with little or no restrictions. CORRECT
+
+The traffic is selectively denied based on service requirements.
+END
+379. Which type of firewall is commonly part of a router firewall and allows or blocks traffic based on Layer 3 and Layer 4 information?
+START
+
+proxy firewall
+
+stateful firewall
+
+application gateway firewall
+stateless firewall CORRECT
+END
+380. What are two characteristics of a stateful firewall? (Choose two.)
+START
+analyzes traffic at Layers 3, 4 and 5 of the OSI model CORRECT
+
+uses complex ACLs which can be difficult to configure
+uses connection information maintained in a state table CORRECT
+
+prevents Layer 7 attacks
+
+uses static packet filtering techniques
+END
+381. How does a firewall handle traffic when it is originating from the public network and traveling to the DMZ network?
+START
+
+Traffic that is originating from the public network is usually permitted with little or no restriction when traveling to the DMZ network.
+
+Traffic that is originating from the public network is usually forwarded without inspection when traveling to the DMZ network.
+Traffic that is originating from the public network is inspected and selectively permitted when traveling to the DMZ network. CORRECT
+
+Traffic that is originating from the public network is usually blocked when traveling to the DMZ network.
+END
+382. What is one limitation of a stateful firewall?
+START
+not as effective with UDP- or ICMP-based traffic CORRECT
+
+weak user authentication
+
+cannot filter unnecessary traffic
+
+poor log information
+END
+383. What is the first step in configuring a Cisco IOS zone-based policy firewall via the CLI?
+START
+Create zones. CORRECT
+
+Assign router interfaces to zones.
+
+Define firewall policies.
+
+Assign policy maps to zone pairs.
+
+Define traffic classes.
+END
+384. Which zone-based policy firewall zone is system-defined and applies to traffic destined for the router or originating from the router?
+START
+
+inside zone
+
+system zone
+
+outside zone
+self zone CORRECT
+
+local zone
+END
+385. Which two statements describe the two configuration models for Cisco IOS firewalls? (Choose two.)
+START
+IOS Classic Firewalls and ZPF models can be enabled on a router concurrently. CORRECT
+
+IOS Classic Firewalls must be enabled in the router configuration before enabling ZPF.
+The IOS Classic Firewall and ZPF cannot be combined on a single interface. CORRECT
+
+Both IOS Classic Firewall and ZPF models require ACLs to define traffic filtering policies.
+
+ZPF must be enabled in the router configuration before enabling an IOS Classic Firewall.
+END
+386. When a Cisco IOS zone-based policy firewall is being configured, which three actions can be applied to a traffic class? (Choose three.)
+START
+
+reroute
+inspect CORRECT
+pass CORRECT
+drop CORRECT
+
+shape
+
+queue
+END
+387. What are two benefits of using a ZPF rather than a Classic Firewall? (Choose two.)
+START
+
+ZPF allows interfaces to be placed into zones for IP inspection.
+
+Multiple inspection actions are used with ZPF.
+The ZPF is not dependent on ACLs. CORRECT
+ZPF policies are easy to read and troubleshoot. CORRECT
+
+With ZPF, the router will allow packets unless they are explicitly blocked.
+END
+388. Which algorithm is used with symmetric encryption to provide confidentiality?
+START
+AES CORRECT
+
+ECC
+
+MD5
+
+RSA
+END
+389. What is the description of VM sprawl?
+
+START
+The demand for VMs is greater than the ability to create VMs.
+There are more VMs than can be effectively managed. CORRECT
+
+VMs are spread over too large of a geographic area.
+
+When a process breaks out of the VM and interacts with the host operating system.
+END
+390. In which phase of application development is new software verified to run under the required security settings?
+START
+
+testing
+
+developing
+staging CORRECT
+
+provisioning
+END
+391. Which cloud security domain covers cloud-specific aspects of infrastructure security and foundations for operating securely in the cloud?
+START
+Infrastructure Security CORRECT
+
+Application Security
+
+Management Plane and Business Continuity
+
+Data Security and Encryption
+END
+392. Which method tries all possible passwords until a match is found?
+START
+brute force CORRECT
+
+rainbow tables
+
+cloud
+
+cryptographic
+
+dictionary
+
+birthday
+END
+393. Which measure can a security analyst take to perform effective security monitoring against network traffic encrypted by SSL technology?
+START
+Deploy a Cisco SSL Appliance. CORRECT
+
+Require remote access connections through IPsec VPN.
+
+Use a Syslog server to capture network traffic.
+
+Deploy a Cisco ASA.
+END
+394. An IT enterprise is recommending the use of PKI applications to securely exchange information between the employees. In which two cases might an organization use PKI applications to securely exchange information between users? (Choose two.)
+START
+
+local NTP server
+802.1x authentication CORRECT
+
+FTP transfers
+
+file and directory access permission
+HTTPS web service CORRECT
+END
+
+395. What are two properties of a cryptographic hash function? (Choose two.)
+START
+
+Complex inputs will produce complex hashes.
+The hash function is one way and irreversible. CORRECT
+
+Hash functions can be duplicated for authentication purposes.
+The output is a fixed length. CORRECT
+
+The input for a particular hash algorithm has to have a fixed size.
+END
